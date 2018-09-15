@@ -31,7 +31,7 @@ void salvar( dado d , solucao s, char nome_arquivo );
 int leitor(char nome_aquivo[TAM], dado & d )
 {
     ifstream ler( nome_aquivo );// ler o arquivo
-    //dado d;
+    dado d;
 
 
     if( !ler.is_open() )// testa se o arquivo tá aberto
